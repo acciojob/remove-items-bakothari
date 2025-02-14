@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.getElementsById("colorSelect").addEventListener("click", function () {
+document.getElementsById("colorSelect").addEventListener("click", ()=> {
     const colorSelect = document.getElementById("colorSelect");
     const selectedIndex = colorSelect.selectedIndex;
 
